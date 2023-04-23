@@ -6,7 +6,7 @@ public class task4 {
     }
 
     static void ex4(String s, int n) {
-        String s1 = repeaString(s, n);
+        String s1 = repeatString(s, n);
         saveToFile(s1);
     }
 
@@ -20,7 +20,7 @@ public class task4 {
         }
     }
 
-    static String repeaString(String s, int n) {
+    static String repeatString(String s, int n) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < n; i++) {
             stringBuilder.append(s);
